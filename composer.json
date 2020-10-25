@@ -1,0 +1,32 @@
+{
+    "name": "ycore/fortify-tailwind",
+    "description": "Tailwind CSS-styled authentication blade views for ycore/fortify-ui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Meyer",
+            "email": "y-core@outlook.com"
+        }
+    ],
+    "homepage": "https://github.com/ycore/fortify-ui",
+    "keywords": ["Laravel", "Fortify", "laravel-fortify", "laravel-ui", "FortifyUI", "fortify-ui", "tailwindcss"],
+    "require": {
+        "ycore/fortify-ui": "dev-master as ^1.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Ycore\\FortifyUI\\": "src"
+        }
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ycore\\FortifyUI\\TailwindUIServiceProvider"
+            ]
+        }
+    }
+}
