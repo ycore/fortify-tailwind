@@ -1,7 +1,7 @@
 # Tailwind CSS-styled authentication blade views for [**FortifyUI**][link-fortify-ui]
 
 <div align="center">
-    <img  src="https://github.com/ycore/fortify-tailwind/blob/stubs/resources/svg/fortify-tailwind.svg" width="200">
+    <img  src="https://github.com/ycore/fortify-tailwind/blob/master/stubs/tailwind/resources/svg/fortify-tailwind.svg" width="200">
 </div>
 
 ## Introduction
