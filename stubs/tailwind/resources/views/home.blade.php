@@ -3,7 +3,7 @@
     <x-alerts.status />
     <div class="container top-0 h-screen">
         <div class="right-0 flex items-center justify-end px-4 py-2 space-x-4">
-            <div class="text-gray-800">
+            <div class="text-gray-800 capitalize">
                 {{ auth()->user()->name }}
             </div>
 
@@ -19,7 +19,8 @@
         {{-- EXAMPLE: this section contains forms and routes not readily accesible upon intital installation. It is meant to be repalced --}}
         <section class="grid grid-cols-2 gap-2 px-4 mx-auto">
             <div class="col-span-2">
-                <p class="text-yellow-400">EXAMPLE: This section includes examples of the forms that can be implemented
+                <p class="text-xs text-green-500">EXAMPLE: This section includes examples of the forms that can be
+                    implemented
                     for each of the selected features</p>
             </div>
             @php
@@ -41,7 +42,8 @@
             @endif
 
             @if (Laravel\Fortify\Features::enabled(Laravel\Fortify\Features::twoFactorAuthentication()))
-            <div>
+            <div class="px-6 py-4 border border-gray-300 rounded">
+                <h2 class="mb-4 font-semibold text-blue-400 uppercase">Two factor codes</h2>
                 @if (auth()->user()->two_factor_recovery_codes)
                 <div>
                     <a href="{{ url('/user/two-factor-qr-code') }}"
@@ -63,6 +65,7 @@
             @endif
 
             <div class="px-6 py-4 border border-gray-300 rounded">
+                <h2 class="mb-4 font-semibold text-blue-400 uppercase">Confirm and Verify</h2>
                 @if (Route::has('password.confirm'))
                 <div>
                     <a href="{{ route('password.confirm') }}"

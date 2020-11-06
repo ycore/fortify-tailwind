@@ -1,6 +1,8 @@
 # Tailwind CSS-styled authentication blade views for [**FortifyUI**][link-fortify-ui]
 
-<img src="https://github.com/ycore/fortify-tailwind/blob/master/stubs/tailwind/resources/svg/fortify-tailwind.svg"  style="display:block; margin-left: auto; margin-right: auto; width: 50%;">
+<div align="center">
+    <img src="https://github.com/ycore/fortify-tailwind/blob/master/stubs/tailwind/resources/svg/fortify-banner.svg" width="50%" >
+</div>
 
 ## Introduction
 
@@ -28,7 +30,7 @@ This package and [**FortifyUI**][link-fortify-ui] both utilize package auto-disc
 2. Next, publish the [Fortify-tailwind][link-this] authentication views and scaffolding:
 
 ``` bash
-$ php artisan fortify-ui:tailwind --new
+$ php artisan fortify-ui:tailwind
 ```
 3. Then, install & initialize tailwindcss and build the assets
 ```bash
@@ -73,12 +75,12 @@ Should you discover any security-related issues, please email y-core@outlook.com
 ## License
 
 MIT. Please see the [License file](license.md) for more information.
-[ico-version]: https://img.shields.io/packagist/v/ycore/fortify-tailwind.svg?style=flat-square
 
 [link-this]: https://github.com/ycore/fortify-tailwind
 [link-fortify-ui]: https://github.com/ycore/fortify-ui
 [link-fortify]: https://github.com//laravel/fortify
 
+[ico-version]: https://img.shields.io/packagist/v/ycore/fortify-tailwind.svg?style=flat-square
 [link-packagist]: https://packagist.org/packages/ycore/fortify-tailwind
 [link-author]: https://github.com/ycore
 [link-contributors]: ../../contributors
