@@ -11,7 +11,7 @@
     "homepage": "https://github.com/ycore/fortify-ui",
     "keywords": ["Laravel", "Fortify", "laravel-fortify", "laravel-ui", "FortifyUI", "fortify-ui", "tailwindcss"],
     "require": {
-        "ycore/fortify-ui": "dev-master as ^1.1"
+        "ycore/fortify-ui": "^1.1"
     },
     "require-dev": {
     },
