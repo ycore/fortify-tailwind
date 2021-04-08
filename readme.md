@@ -34,7 +34,7 @@ $ php artisan fortify-ui:tailwind
 ```
 3. Then, install & initialize tailwindcss and build the assets
 ```bash
- npm install tailwindcss --save-dev
+ npm install tailwindcss autoprefixer --save-dev
  npx tailwindcss init
  npm install
  npm run dev
